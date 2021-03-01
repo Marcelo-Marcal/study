@@ -1,9 +1,17 @@
-// new:
-let name = new String('Mayk')
-let age = new Number(23)
-console.log(name, age)
+// Condicionais If e Else:
+let temperature = 38
 
-/**
- * let date = new Date('2020-12-01')
- * console.log(date)
- */
+if(temperature >= 37){
+    console.log('Febre')    
+} else {
+    console.log('Saudável')
+}
+// Ou
+let temperature = 38
+    if(temperature >= 37.5){
+    console.log('Febre alta')
+    } else if (temperature < 37.5 && temperature >= 37){
+    console.log('Febre moderada')
+    } else {
+    console.log('Saudável')
+}
